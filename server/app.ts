@@ -142,6 +142,6 @@ app.post('/api/getuuid', urlParser, (req, res) => {
     }
 })
 
-app.listen(config.port, () => {
+app.listen(process.env.PORT || config.port, () => {
     console.log(`Started at http://${config.host}:${config.port}`)
 })
