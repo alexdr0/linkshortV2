@@ -1,0 +1,7 @@
+{
+    "port": 80,
+    "host": "localhost",
+    "database": {
+        "uri": "mongodb+srv://server:asjds23892slkd@cluster0.h7rtz.mongodb.net/linkshareV2?retryWrites=true&w=majority"
+    }
+}
