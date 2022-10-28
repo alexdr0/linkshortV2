@@ -34,6 +34,12 @@ function generateUID() {
 
 console.log("Example UUID", generateUID())
 
+app.get('/test', (req, res) => {
+    res.json({
+        "response": "yea it works "
+    })
+})
+
 app.post('/api/makeurl', urlParser, (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
     console.log(req.body.url)
